@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <title>Editor foto</title>
+  <link rel="stylesheet" type="text/css" href="./1_1081_POPA_Raluca_Nicoleta.css">
+  <script src="./1_1081_POPA_Raluca_Nicoleta.js" type="text/javascript"></script>
+</head>
+<body>
+  
+    <h1>Mini Editor Foto</h1>
+    <canvas id="canvas1"   width="650"  height="450" ></canvas>
+    <audio id="sunet" src="media/Robot_blip-Marianne_Gagnon-120342607.mp3"></audio>
+    <img src="media/imagine.jpg" id="imgCanvas" height="450" width="650" draggable="true">
+    <div>
+    <input type="button" id="lines" onmousedown="playSound()" value="Draw lines"></input>
+    <input type="button" id="square" onmousedown="playSound()" value="Draw square"></input>
+    <input type="button" id="circle" onmousedown="playSound()" value="Draw a circle"></input>
+    <input type="button" id="drag" onmousedown="playSound()" value="Drag"></input>
+    <input type="button" id="crop" onmousedown="playSound()" value="Crop">
+    <input type="button" id="delete" onmousedown="playSound()" value="Delete">
+    <input type="button" id="zoom" onmousedown="playSound()" value="Zoom In">
+    <input type="button" id="zoomout" onmousedown="playSound()" value="Zoom Out">
+    <input type="button" id="linesMouse" onmousedown="playSound()" value="Lines">
+    <input type="button" id="squareMouse" onmousedown="playSound()" value="Square">
+    <script>
+       function playSound() {
+       var audio = document.getElementById("sunet");
+       audio.play();
+}
+    </script>
+
+  </div>
+</body>
+</html>

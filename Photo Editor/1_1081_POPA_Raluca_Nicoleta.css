@@ -1,0 +1,60 @@
+h1 {
+  color: darkgreen;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#canvas1 {
+  border: 5px solid darkgreen;
+}
+body {
+  background-color: darkseagreen;
+}
+#lines {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 25px;
+}
+#square {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 25px;
+}
+#circle {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 25px;
+}
+#crop {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 25px;
+}
+#drag {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 25px;
+}
+#delete {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 25px;
+}
+#zoom {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 25px;
+}
+#zoomout {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 25px;
+}
+#linesMouse {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 25px;
+}
+#squareMouse {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 25px;
+}

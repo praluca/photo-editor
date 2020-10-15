@@ -1,5 +1,5 @@
 # Photo Editor
-This is a editor built with JavaScript.
+This is an editor built with JavaScript.
 ## Available features
 * Draw some geometrical figures(circle, square)
 * Drag and drop images
